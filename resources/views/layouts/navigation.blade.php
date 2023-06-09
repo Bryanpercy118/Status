@@ -19,6 +19,9 @@
                 <x-nav-link :href="route('chirps.index')" :active="request()->routeIs('chirps.index')">
                     {{ __('Publicaciones') }}
                 </x-nav-link>
+                <x-nav-link :href="route('chat.index')" :active="request()->routeIs('chat.index')">
+                    {{ __('OpenAI') }}
+                </x-nav-link>
             </div>
 
             <!-- Settings Dropdown -->
@@ -75,6 +78,9 @@
             </x-responsive-nav-link>
             <x-nav-link :href="route('chirps.index')" :active="request()->routeIs('chirps.index')">
                 {{ __('Chirps') }}
+            </x-nav-link>
+            <x-nav-link :href="route('chat.index')" :active="request()->routeIs('chat.index')">
+                {{ __('OpenAI') }}
             </x-nav-link>
         </div>
 

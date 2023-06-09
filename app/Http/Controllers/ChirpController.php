@@ -6,7 +6,7 @@ use App\Models\chirp;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
-
+use Debugbar;
 class ChirpController extends Controller
 {
     /**
@@ -18,6 +18,7 @@ class ChirpController extends Controller
         return view('chirps.index', [
             //pasamos la variable, model chirp, con el usuario incluido, latest() ascendentemente
             'chirps' => Chirp::with('user')->latest()->get(),
+
         ]);
     }
     /**
@@ -39,7 +40,7 @@ class ChirpController extends Controller
         ]);
 
         $request->user()->chirps()->create($validated);
-
+        Debugbar::info($request);
         return redirect(route('chirps.index'));
     }
 

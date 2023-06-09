@@ -163,11 +163,16 @@ return [
         /*
          * Application Service Providers...
          */
+        OpenAI\Laravel\ServiceProvider::class,
+        //OpenAI\Laravel\OpenAIServiceProvider::class,
+        Laravel\Telescope\TelescopeServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\TelescopeServiceProvider::class,
     ])->toArray(),
 
     /*
@@ -183,6 +188,8 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
+
     ])->toArray(),
 
 ];
