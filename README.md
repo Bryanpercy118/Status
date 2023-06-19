@@ -15,6 +15,8 @@
 
 En este bootcamp, nos enfocamos en aplicar las mejores prácticas de la industria y seguir técnicas de programación eficientes para ofrecer una aplicación web sólida y escalable. Aprovechando las poderosas características de Laravel y siguiendo estándares de codificación establecidos, buscamos crear una base de código limpia y fácil de mantener.
 
+Además, en esta aplicación se ha integrado la funcionalidad de un chat basado en GPT (Generative Pre-trained Transformer) API. Esto permite a los usuarios interactuar y tener conversaciones generadas por modelos de lenguaje avanzados, proporcionando una experiencia de chat enriquecedora.
+
 ## Instalación
 
 Para instalar y ejecutar el proyecto Chirper Laravel Bootcamp en tu máquina local, sigue estos pasos:
@@ -59,4 +61,4 @@ Este proyecto fue desarrollado por Bryan A. Granados Percy, desarrollador de Lar
 
 Si tienes alguna pregunta o comentario, no dudes en contactarme a Bryan por correo electrónico a bryanpercy77@gmail.com 
 
-¡Esperamos que encuentres útil este proyecto y disfrutes explorando las características y el código de Chirper Laravel Bootcamp!
+¡Esperamos que encuentres útil este proyecto y disfrutes explorando las características y el código de Chirper Laravel Bootcamp, incluyendo la integración del chat basado en GPT API!
