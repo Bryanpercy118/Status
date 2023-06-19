@@ -57,6 +57,6 @@ Ten en cuenta que los pasos anteriores asumen que tienes PHP y Composer instalad
 
 Este proyecto fue desarrollado por Bryan A. Granados Percy, desarrollador de Laravel con pasión por construir aplicaciones web escalables y de alto rendimiento. Explotando su experiencia en Laravel se utilizo prácticas modernas de desarrollo para crear el proyecto Chirper Laravel Bootcamp.
 
-Si tienes alguna pregunta o comentario, no dudes en contactar a Bryan por correo electrónico a bryanpercy77@gmail.com 
+Si tienes alguna pregunta o comentario, no dudes en contactarme a Bryan por correo electrónico a bryanpercy77@gmail.com 
 
 ¡Esperamos que encuentres útil este proyecto y disfrutes explorando las características y el código de Chirper Laravel Bootcamp!
